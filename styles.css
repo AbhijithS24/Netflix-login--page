@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.backgroundimg {
+  background-image: url("images/netflix-back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+/* Top logo */
+.logo {
+  height: 6.25rem;
+  width: 12.5rem;
+  position: absolute;
+  left: 3%;
+}
+/* Transparent login box */
+.loginbox {
+  background-color: black;
+  opacity: 0.8;
+  width: 400px;
+  height: 450px;
+  position: relative;
+  top: 175px;
+  left: 550px;
+}
+/* Box contents */
+.signintext {
+  color: white;
+  position: relative;
+  left: 50px;
+  top: 30px;
+}
+.userid {
+  position: absolute;
+  top: 275px;
+  left: 600px;
+  width: 300px;
+  height: 50px;
+  background-color: #564d4d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.userpword {
+  position: absolute;
+  top: 340px;
+  left: 600px;
+  width: 300px;
+  height: 50px;
+  background-color: #564d4d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+.log-btn {
+  position: absolute;
+  top: 405px;
+  left: 600px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+  width: 300px;
+  height: 50px;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: bold;
+}
+.check {
+  position: absolute;
+  top: 465px;
+  left: 600px;
+  color: white;
+  font-size: 0.8rem;
+}
+.help {
+  color: #ffffff;
+  position: absolute;
+  left: 825px;
+  top: 465px;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+.newnet {
+  color: #ffffff;
+  position: absolute;
+  top: 530px;
+  left: 600px;
+  font-size: 0.8rem;
+}
+.signup {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* Facebook Login */
+.fbimage {
+  size: 2em;
+}
